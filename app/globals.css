@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: azure;
+}
+
+html,body{
+  width:100vw;
+  height: 100vh;
+  background-color: black;
+}
+
+.container
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10vh;
+}
+
+
+
+.form{
+  padding: 1vw;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+input{
+  flex: 0.2;
+  padding: 1vw;
+  margin: 1vw;
+  color: black;
+  font-size: medium;
+}
+
+.content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20%;
+  padding: 4%;
+  width: 100%;
+  margin-bottom: 24px;
+  border-radius: 6px;
+  background-color: rgb(84, 83, 167);
+  animation: 0.6s myanime;
+
+}
+
+@keyframes myanime{
+  from{
+    margin-left: 100%;
+    width: 100%;
+    opacity: 0%;  
+  }
+
+  to{
+    margin-left: 0%;
+    width: 100%;
+    opacity: 100%;
+  }
+}
+
+.left{
+  flex: 1;
+  padding: 2vw;
+  background-color: rgb(202, 145, 37);
+  border-radius: 7px;
+}
+
+.button{
+  padding: 1vw;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(54, 25, 212);
+  transition: all 0.1s ease;
+}
+
+.button:hover{
+  background-color: rgb(17, 228, 87);
+  color: black;
+}
+
+.not{
+  background-color: rgb(84, 83, 167);
+  width: 100%;
+  text-align: center;
+  border-radius: 7px;
+}
+
+  
